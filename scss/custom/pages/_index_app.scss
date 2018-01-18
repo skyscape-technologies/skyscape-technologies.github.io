@@ -235,23 +235,30 @@
     }
 
     a {
-      margin-top: 25px;
-      display: inline-block;
-      background: #459CE7;
-      color: #fff;
-      padding: 13px 30px;
-      border-radius: 50px;
-      font-size: 13px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      text-decoration: none;
+    display: inline-block;
+    padding: 11px 10px;
+    border: 2px solid #011627;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background: #011627;
+    color: #FDFFFC;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 260px;
 
-      @include transition(all .2s);
+    @include animationDelay(.6s);
+    @include transition(all .2s);
 
-      &:hover {
-        background: #66B1F2;
-      }
+    &:hover {
+      color: #011627;
+      background: transparent;
     }
+
+    @media(max-width: 767px) {
+      margin-right: 0px;
+    }
+  }
   }
 }
