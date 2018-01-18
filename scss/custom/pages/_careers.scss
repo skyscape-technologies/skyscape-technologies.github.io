@@ -175,10 +175,17 @@
 }
 
 .careers-listing {
-  margin-top: 110px;
+  margin-top: 60px;
+  padding-bottom: 550px;
+  overflow-x: hidden;
+  background: url('#{$imagesPath}/aviary/aviary_bcg_drops_shadow.png');
+  background-repeat: no-repeat;
+  background-attachment: float;
+  background-position: -20px -50px;
 
   @media(max-width: 767px) {
-    margin-top: 60px;
+    background: none;
+    padding-bottom: 10px;
   }
 
   .title {

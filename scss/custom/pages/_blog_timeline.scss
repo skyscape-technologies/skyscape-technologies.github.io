@@ -1,5 +1,6 @@
 .timeline-page {
-  background: #f7f8fa;
+  background: #FDFFFC;
+  padding-top: 130px;
 }
 
 .blog-timeline-header {
@@ -336,7 +337,6 @@
   .pager {
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 0;
 
     a {
       display: inline-block;
@@ -349,7 +349,7 @@
       letter-spacing: 1px;
       padding: 6px 23px;
       border-radius: 3px;
-      color: #444;
+      color: #011627;
 
       @include transition(all .2s);
 
@@ -358,4 +358,14 @@
       }
     }
   }
+}
+
+.skyscape-background {
+  margin-top: 0px;
+  padding-bottom: 650px;
+  overflow-x: hidden;
+  background: url('#{$imagesPath}/aviary/aviary_bcg_drops_shadow.png');
+  background-repeat: no-repeat;
+  background-attachment: float;
+  background-position: -20px -250px;
 }

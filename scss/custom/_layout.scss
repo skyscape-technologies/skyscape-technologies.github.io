@@ -104,7 +104,7 @@ body {
     font-size: 10px;
     font-family: 'Times';
     letter-spacing: 0.1px;
-    color: #FDFFFC;
+    color: #dddddd;
     margin-top: -2px;
 
     @include transition(color .2s linear);
@@ -131,7 +131,7 @@ body {
 
   .nav-item {
     .nav-link {
-      color: #FDFFFC;
+      color: #dddddd;
       font-weight: 600;
       font-size: 13px;
 
@@ -139,25 +139,25 @@ body {
 
       @media(min-width: 992px) {
         margin: 0 9px;
-        padding: 32px 10px;
+        padding: 32px 2px;
       }
 
       &:hover,
       &:focus {
-        color: #CFCFCC;
+        color: #FDFFFC;
         background: none;
       }
 
       &--rounded-orange {
-        @media(min-width: 1200px) {
+        @media(min-width: 991px) {
           text-transform: capitalize;
           border: 2px solid #FDFFFC;
-          color: #FDFFFC;
-          border-radius: 25px;
+          color: #dddddd;
+          border-radius: 4px;
           margin-left: 20px;
           margin-top: 22px;
-          padding: 8px 20px 9px;
-          width: 140px;
+          padding: 8px 10px 9px;
+          width: 130px;
           text-align: center;
 
           @include transition(all .15s ease-out);
@@ -170,18 +170,22 @@ body {
             @include transform(scale(0.93));
           }
         }
+
+        @media(max-width: 992px) {
+          color: #FF9F1C;
+        }
       }
 
       &--rounded-green {
-        @media(min-width: 1200px) {
+        @media(min-width: 991px) {
           text-transform: capitalize;
           border: 2px solid #FDFFFC;
-          color: #FDFFFC;
-          border-radius: 25px;
-          margin-left: 20px;
+          color: #dddddd;
+          border-radius: 4px;
+          margin-left: 1px;
           margin-top: 22px;
-          padding: 8px 20px 9px;
-          width: 140px;
+          padding: 8px 10px 9px;
+          width: 130px;
           text-align: center;
 
           @include transition(all .15s ease-out);
@@ -193,6 +197,10 @@ body {
           &:active {
             @include transform(scale(0.93));
           }
+        }
+
+        @media(max-width: 992px) {
+          color: #2EC4B6;
         }
       }
 
@@ -374,16 +382,16 @@ body {
     padding: 50px 0 40px;
 
     .title {
-      color: #333;
+      color: #dddddd;
       font-size: 14px;
     }
 
     .menu {
       a {
-        color: #495879;
+        color: #dddddd;
 
         &:hover {
-          color: #333;
+          color: #FDFFFC;
         }
       }
 
@@ -423,7 +431,7 @@ body {
   }
 
   .title {
-    color: #fff;
+    color: #dddddd;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 13px;
@@ -436,7 +444,7 @@ body {
     margin-top: 30px;
 
     a {
-      color: #CDD6E9;
+      color: #dddddd;
       display: inline-block;
       margin-bottom: 9px;
       text-decoration: none;
@@ -444,7 +452,7 @@ body {
       @include transition(all .2s linear);
 
       &:hover {
-        color: #fff;
+        color: #FDFFFC;
       }
     }
 
@@ -460,7 +468,7 @@ body {
 
   .newsletter {
     p {
-      color: #BCC7DF;
+      color: #dddddd;
       margin-top: 25px;
       line-height: 20px;
     }
@@ -474,7 +482,7 @@ body {
         padding-left: 17px;
 
         @include placeholder {
-          color: #9BA1C2;
+          color: #dddddd;
         }
 
         &:focus {
@@ -489,17 +497,17 @@ body {
         right: 0;
         font-size: 17px;
         height: 45px;
-        background: #ADBFE0;
+        background: #FF9F1C;
         padding: 0 15px;
         border-radius: 0 4px 4px 0;
-        color: #fff;
+        color: #FDFFFC;
       }
     }
   }
 
   .bottom {
     margin-top: 40px;
-    border-top: 1px solid #3A455A;
+    border-top: 1px solid #dddddd;
 
     ul {
       list-style-type: none;
@@ -519,7 +527,7 @@ body {
       }
 
       a {
-        color: #9DAAC2;
+        color: #dddddd;
         text-transform: uppercase;
         font-size: 11px;
         font-weight: 600;

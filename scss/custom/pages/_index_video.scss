@@ -84,17 +84,18 @@
 
   a.btn-cta-orange {
     display: inline-block;
-    padding: 11px 29px;
+    padding: 11px 10px;
     border: 2px solid #FF9F1C;
-    border-radius: 50px;
+    border-radius: 4px;
     text-transform: uppercase;
     background: #FF9F1C;
     color: #011627;
     text-decoration: none;
     margin-top: 45px;
+    margin-right: 10px;
     font-weight: 600;
     letter-spacing: 1px;
-    width: 265px;
+    width: 240px;
 
     @include animationDelay(.6s);
     @include transition(all .2s);
@@ -103,13 +104,17 @@
       color: #FF9F1C;
       background: transparent;
     }
+
+    @media(max-width: 767px) {
+      margin-right: 0px;
+    }
   }
 
   a.btn-cta-green {
     display: inline-block;
-    padding: 11px 29px;
+    padding: 11px 10px;
     border: 2px solid #2EC4B6;
-    border-radius: 50px;
+    border-radius: 4px;
     text-transform: uppercase;
     background: #2EC4B6;
     color: #011627;
@@ -117,7 +122,7 @@
     margin-top: 45px;
     font-weight: 600;
     letter-spacing: 1px;
-    width: 265px;
+    width: 240px;
 
     @include animationDelay(.6s);
     @include transition(all .2s);
