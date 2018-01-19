@@ -133,7 +133,7 @@
 }
 
 .index-intro {
-  margin-top: 140px;
+  margin-top: 100px;
 
   @media(max-width: 767px) {
     margin-top: 80px;
@@ -156,14 +156,15 @@
 
     h3 {
       text-align: center;
-      font-size: 26px;
+      font-size: 30px;
+      letter-spacing: .1px;
       font-weight: 400;
-      color: #555;
+      color: #011627;
     }
 
     p {
       color: #666;
-      font-size: 15px;
+      font-size: 17px;
       text-align: center;
       line-height: 25px;
       width: 75%;
@@ -179,7 +180,7 @@
 
     h4 {
       font-size: 18px;
-      color: #339BC0;
+      color: #011627;
       line-height: 25px;
       margin-top: 7px;
 
@@ -198,6 +199,67 @@
         margin-bottom: 35px;
         text-align: center;
         width: 100%;
+      }
+    }
+
+    .btn-cta-blue {
+      display: inline-block;
+      padding: 11px 10px;
+      border: 2px solid #011627;
+      border-radius: 4px;
+      text-transform: uppercase;
+      background: #011627;
+      color: #FDFFFC;
+      text-decoration: none;
+      margin-top: 40px;
+      margin-right: 0px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      width: 240px;
+      text-align: center;
+
+      @include animationDelay(.6s);
+      @include transition(all .2s);
+
+      &:hover {
+        color: #011627;
+        background: transparent;
+      }
+
+      @media(max-width: 767px) {
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 30px
+      }
+    }
+
+    .btn-cta-green {
+      display: inline-block;
+      padding: 11px 10px;
+      border: 2px solid #2EC4B6;
+      border-radius: 4px;
+      text-transform: uppercase;
+      background: #2EC4B6;
+      color: #FDFFFC;
+      text-decoration: none;
+      margin-top: 40px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      width: 240px;
+      text-align: center;
+
+      @include animationDelay(.6s);
+      @include transition(all .2s);
+
+      &:hover {
+        color: #2EC4B6;
+        background: transparent;
+      }
+
+      @media(max-width: 767px) {
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 30px
       }
     }
   }
@@ -297,15 +359,15 @@
 }
 
 .index-devices {
-  padding-top: 70px;
+  padding-top: 0px;
   overflow-x: hidden;
   background: url('#{$imagesPath}/aviary/aviary_bcg_drops_shadow.png');
   background-repeat: no-repeat;
   background-attachment: float;
-  background-position: -20px -50px; 
+  background-position: -20px -250px; 
 
   @media(max-width: 767px) {
-    padding-top: 80px;
+    padding-top: 0px;
     text-align: center;
   }
 
@@ -485,7 +547,7 @@
 }
 
 .index-clients {
-  margin-top: 200px;
+  margin-top: 100px;
   text-align: center;
 
   @media(max-width: 767px) {
@@ -512,7 +574,7 @@
       top: -8px;
       padding: 0 40px;
       background: #fff;
-      color: #97A8B8;
+      color: #011627;
       display: inline-block;
       text-transform: uppercase;
       font-size: 13px;

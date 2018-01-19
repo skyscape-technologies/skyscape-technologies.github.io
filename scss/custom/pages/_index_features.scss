@@ -521,6 +521,35 @@
     }
   }
 
+  .btn-cta-orange {
+    display: inline-block;
+    padding: 11px 10px;
+    border: 2px solid #FF9F1C;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background: #FF9F1C;
+    color: #FDFFFC;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 300px;
+    text-align: center;
+
+    @include animationDelay(.6s);
+    @include transition(all .2s);
+
+    &:hover {
+      color: #FF9F1C;
+      background: transparent;
+    }
+
+    @media(max-width: 767px) {
+      margin-right: 0px;
+    }
+  }
+
   .col-right {
     float: left;
     width: 50%;

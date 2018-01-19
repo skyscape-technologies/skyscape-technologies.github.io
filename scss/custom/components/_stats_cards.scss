@@ -1,6 +1,6 @@
 .statcard {
-  &.statcard-primary {
-    background: #2EC4B6;
+  &.statcard-blue {
+    background: #011627;
     border-radius: 5px;
 
     .statcard-number {
@@ -16,28 +16,28 @@
     }
   }
 
-  &.statcard-success {
+  &.statcard-red {
+    border-radius: 5px;
+    background: #E71D36;
+
+    .statcard-number {
+      color: #FDFFFC;
+    }
+
+    .statcard-desc {
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .stat-indicator {
+      color: #FDFFFC;
+    }
+  }
+
+  &.statcard-orange {
     border-radius: 5px;
     background: #FF9F1C;
 
     .statcard-number {
-      color: #FDFFFC;
-    }
-
-    .statcard-desc {
-      color: rgba(255, 255, 255, 0.8);
-    }
-
-    .stat-indicator {
-      color: #FDFFFC;
-    }
-  }
-
-  &.statcard-dark {
-    border-radius: 5px;
-    background: #333;
-
-    .statcard-number {
       color: #fff;
     }
 
@@ -50,9 +50,9 @@
     }
   }
 
-  &.statcard-danger {
+  &.statcard-green {
     border-radius: 5px;
-    background: #E71D36;
+    background: #2EC4B6;
 
     .statcard-number {
       color: #FDFFFC;
@@ -82,6 +82,10 @@
     .stat-indicator {
       color: #fff;
     }
+  }
+
+  &.index {
+    margin-top: 10px;
   }
 }
 
