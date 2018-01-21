@@ -265,6 +265,145 @@
   }
 }
 
+.index-intro-market {
+  margin-top: 150px;
+  padding-bottom: 150px;
+
+  @media(max-width: 767px) {
+    margin-top: 80px;
+  }
+
+  header {
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -50px;
+      height: 1px;
+      width: 85%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background: #eaeaea;
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 30px;
+      letter-spacing: .1px;
+      font-weight: 400;
+      color: #011627;
+    }
+
+    p {
+      color: #666;
+      font-size: 17px;
+      text-align: center;
+      line-height: 25px;
+      width: 75%;
+      margin: 0 auto;
+      margin-top: 25px;
+    }
+  }
+
+  section {
+    width: 85%;
+    margin: auto;
+    margin-top: 90px;
+
+    h4 {
+      font-size: 18px;
+      color: #011627;
+      line-height: 25px;
+      margin-top: 7px;
+
+      @media(max-width: 767px) {
+        text-align: center;
+      }
+    }
+
+    p {
+      margin-top: 17px;
+      line-height: 24px;
+      width: 90%;
+      color: #555;
+
+      @media(max-width: 767px) {
+        margin-bottom: 35px;
+        text-align: center;
+        width: 100%;
+      }
+    }
+
+    .rooftop {
+    margin-top: 0px;
+    width: 400%;
+    }
+
+    .btn-cta-blue {
+      display: inline-block;
+      padding: 11px 10px;
+      border: 2px solid #011627;
+      border-radius: 4px;
+      text-transform: uppercase;
+      background: #011627;
+      color: #FDFFFC;
+      text-decoration: none;
+      margin-top: 40px;
+      margin-right: 0px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      width: 240px;
+      text-align: center;
+
+      @include animationDelay(.6s);
+      @include transition(all .2s);
+
+      &:hover {
+        color: #011627;
+        background: transparent;
+      }
+
+      @media(max-width: 767px) {
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 30px
+      }
+    }
+
+    .btn-cta-green {
+      display: inline-block;
+      padding: 11px 10px;
+      border: 2px solid #2EC4B6;
+      border-radius: 4px;
+      text-transform: uppercase;
+      background: #2EC4B6;
+      color: #FDFFFC;
+      text-decoration: none;
+      margin-top: 40px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      width: 240px;
+      text-align: center;
+
+      @include animationDelay(.6s);
+      @include transition(all .2s);
+
+      &:hover {
+        color: #2EC4B6;
+        background: transparent;
+      }
+
+      @media(max-width: 767px) {
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-bottom: 30px
+      }
+    }
+  }
+}
+
 .index-features {
   margin-top: 120px;
   background: #fafafa;
