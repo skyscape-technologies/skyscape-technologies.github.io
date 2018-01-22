@@ -337,8 +337,12 @@
     }
 
     .rooftop {
-    margin-top: 0px;
-    width: 400%;
+    margin-top: -70px;
+    width: 400px;
+
+      @media(max-width: 767px) {
+        display: none;
+      }
     }
 
     .btn-cta-blue {

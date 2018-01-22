@@ -121,7 +121,7 @@
 }
 
 .index-app-features {
-  padding-top: 160px;
+  padding-top: 200px;
   overflow-x: hidden;
 
   @media(max-width: 767px) {
@@ -147,8 +147,14 @@
   
   img.browser {
     position: absolute;
-    left: 450px;
+    left: 500px;
     top: -15px;
+    width: 350px;
+
+    @media(max-width: 991px) {
+      left: 400px;
+      width: 300px;
+    }
 
     @media(max-width: 767px) {
       display: none;
