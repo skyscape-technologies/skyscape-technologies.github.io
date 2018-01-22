@@ -110,8 +110,6 @@ body {
     @media(max-width: 992px) {
       color: #dddddd;
     }
-
-    @include transition(color .2s linear);
   }
   
   .dropdown-menu {
@@ -254,7 +252,7 @@ body {
     .nav-link {
       color: #fff;
 
-      &--rounded {
+      &--rounded-orange {
         @media(min-width: 1200px) {
           border-color: #fff;
           color: #fff;
@@ -263,6 +261,28 @@ body {
             background-color: #fff;
             color: #333;
           }
+        }
+
+        @media(max-width: 992px) {
+          border-color: #FF9F1C;
+          color: #FF9F1C;
+        }
+      }
+
+      &--rounded-green {
+        @media(min-width: 1200px) {
+          border-color: #fff;
+          color: #fff;
+
+          &:hover {
+            background-color: #fff;
+            color: #333;
+          }
+        }
+
+        @media(max-width: 992px) {
+          border-color: #2EC4B6;
+          color: #2EC4B6;
         }
       }
     }
