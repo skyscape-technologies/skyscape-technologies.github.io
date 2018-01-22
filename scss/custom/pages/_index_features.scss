@@ -495,6 +495,7 @@
 
       .image, .info, {
         float: left;
+        size: 30px;
 
         @media(max-width: 767px) {
           float: none;
@@ -515,7 +516,7 @@
           font-size: 14px;
           text-transform: uppercase;
           font-weight: 600;
-          color: #444;
+          color: #011627;
           letter-spacing: .5px;
         }
 
