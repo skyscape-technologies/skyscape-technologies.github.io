@@ -1,7 +1,7 @@
 .agency-about-hero {
   height: 550px;
   position: relative;
-  background-image: url('#{$imagesPath}/aviary/snowyroofs.jpg');
+  background-image: url('#{$imagesPath}/aviary/city6.png');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -21,8 +21,6 @@
     top: 0px;
     width: 100%;
     height: 100%;
-    background: -webkit-linear-gradient(bottom left, rgba(28, 46, 79, 0.62) 0%, rgba(28, 46, 79, 0.7) 14.87%, rgba(45, 83, 123, 0.6) 100%);
-    background: linear-gradient(to bottom left, rgba(28, 46, 79, 0.62) 0%, rgba(28, 46, 79, 0.7) 14.87%, rgba(45, 83, 123, 0.6) 100%);
   }
 
   section {
