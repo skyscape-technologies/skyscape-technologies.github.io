@@ -41,10 +41,10 @@
   }
 
   p {
-    color: #fff;
+    color: #FDFFFC;
+    line-height: 46px;
+    font-size: 30px;
     text-align: center;
-    font-size: 24px;
-    line-height: 37px;
     width: 70%;
     margin: 0 auto;
 
@@ -75,7 +75,7 @@
 }
 
 .agency-about-team {
-  margin-top: 100px;
+  margin-top: 0px;
   background: #F9F9F9;
   padding-top: 50px;
   padding-bottom: 0px;
@@ -100,7 +100,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    color: #444;
+    color: #011627;
   }
 
   .member {
@@ -192,7 +192,7 @@
 
   h3 {
     font-size: 28px;
-    color: #4a5969;
+    color: #011627;
 
     @media(max-width: 767px) {
       font-size: 25px;
@@ -201,7 +201,7 @@
 
   p {
     font-size: 16px;
-    color: #7B899E;
+    color: #011627;
     margin-top: 18px;
     line-height: 28px;
   }
