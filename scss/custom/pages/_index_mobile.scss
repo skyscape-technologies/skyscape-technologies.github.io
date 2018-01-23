@@ -202,13 +202,13 @@
       }
     }
 
-    .btn-cta-blue {
+    .btn-cta-orange {
       display: inline-block;
       padding: 11px 10px;
-      border: 2px solid #011627;
+      border: 2px solid #FF9F1C;
       border-radius: 4px;
       text-transform: uppercase;
-      background: #011627;
+      background: #FF9F1C;
       color: #FDFFFC;
       text-decoration: none;
       margin-top: 40px;
@@ -222,7 +222,7 @@
       @include transition(all .2s);
 
       &:hover {
-        color: #011627;
+        color: #FF9F1C;
         background: transparent;
       }
 
@@ -297,7 +297,7 @@
     }
 
     p {
-      color: #666;
+      color: #555;
       font-size: 17px;
       text-align: center;
       line-height: 25px;
