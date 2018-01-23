@@ -102,6 +102,10 @@
     @include animationDelay(.6s);
     @include transition(all .2s);
 
+    @media(max-width: 767px) {
+      margin-top: 20px;
+    }
+
     &:hover {
       color: #2EC4B6;
       background: transparent;
