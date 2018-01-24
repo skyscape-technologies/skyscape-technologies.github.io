@@ -1,5 +1,6 @@
 .blog-post {
   margin-top: 70px;
+  margin-bottom: 70px;
 
   @media(max-width: 767px) {
     margin-top: 40px;
@@ -50,7 +51,7 @@
 
 .blog-post-date {
   display: inline-block;
-  margin-left: 35px;
+  margin-left: 0px;
   color: #888;
 
   @media(max-width: 767px) {
@@ -116,6 +117,35 @@
 
     @media(max-width: 991px) {
       font-size: 14px;
+    }
+  }
+
+  .btn-cta-orange {
+    display: block;
+    padding: 11px 10px;
+    border: 2px solid #011627;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background: #011627;
+    color: #FDFFFC;
+    text-decoration: none;
+    margin-top: 45px;
+    margin-right: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 120px;
+    text-align: center;
+
+    @include animationDelay(.6s);
+    @include transition(all .2s);
+
+    &:hover {
+      color: #011627;
+      background: transparent;
+    }
+
+    @media(max-width: 767px) {
+      margin-right: 0px;
     }
   }
 

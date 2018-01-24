@@ -1,9 +1,10 @@
 .blog-post-alt-hero {
-  height: 330px;
-  background-image: url('#{$imagesPath}/unsplash/michael-benz-189971.jpg');
+  height: 350px;
+  background-image: url('#{$imagesPath}/aviary/city6.png');
   background-size: cover;
   background-position: center center;
   position: relative;
+  padding-top: 150px;
 
   @media(max-width: 991px) {
     height: 300px;
