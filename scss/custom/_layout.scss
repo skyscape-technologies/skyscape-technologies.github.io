@@ -554,14 +554,6 @@ body {
         font-weight: 600;
         text-decoration: none;
         position: relative;
-
-        &:after {
-          content: '|';
-          position: absolute;
-          right: -15px;
-          top: -1px;
-          font-weight: bold;
-        }
       }
     }
   }
