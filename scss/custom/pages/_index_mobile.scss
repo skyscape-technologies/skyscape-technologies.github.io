@@ -1,3 +1,4 @@
+
 .index-header {
   min-height: 650px;
   background-image: linear-gradient(-45deg, #5F6190 0%, #525480 20%, #131b2e 100%);
@@ -718,6 +719,51 @@
       padding: 0 40px;
       background: #fff;
       color: #011627;
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: 1.8px;
+      word-spacing: 1.6px;
+      font-weight: 600;
+      line-height: 24px;
+    }
+  }
+
+  .img-responsive {
+    margin: 0 auto;
+  }
+}
+
+.index-clients-team {
+  margin-top: 70px;
+  margin-bottom: -90px;
+  text-align: center;
+
+  @media(max-width: 767px) {
+    margin-top: 110px;
+  }
+
+  header {
+    font-size: 18px;
+    margin-bottom: 30px;
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: #E9E9E9;
+      top: 11px;
+    }
+
+    h4 {
+      position: relative;
+      top: -8px;
+      padding: 0 40px;
+      background: #FDFFFC;
+      color: #676767;
       display: inline-block;
       text-transform: uppercase;
       font-size: 13px;

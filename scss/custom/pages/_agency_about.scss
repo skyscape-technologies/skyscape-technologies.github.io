@@ -76,7 +76,7 @@
 
 .agency-about-team {
   margin-top: 0px;
-  background: #F9F9F9;
+  background: #FDFFFC;
   padding-top: 50px;
   padding-bottom: 0px;
   border-top: 1px solid #F0F0F0;
@@ -86,6 +86,8 @@
     font-size: 19px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-weight: 500;
+    color: #011627;
   }
 
   hr {
@@ -197,22 +199,27 @@
 }
 
 .agency-about-cta {
-  margin-top: 70px;
+  margin-top: 30px;
   text-align: center;
 
   h3 {
-    font-size: 28px;
+    text-align: center;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 20px;
     color: #011627;
 
     @media(max-width: 767px) {
-      font-size: 25px;
+      font-size: 19px;
     }
   }
 
   p {
     font-size: 16px;
     color: #011627;
-    margin-top: 18px;
+    margin-top: 5px;
     line-height: 28px;
   }
 }
