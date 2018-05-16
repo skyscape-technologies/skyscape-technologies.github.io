@@ -300,12 +300,12 @@
 }
 
 .index-dark-banner {
-  margin-top: 120px;
+  margin-top: 0px;
   height: 400px;
-  background-image: url('#{$imagesPath}/unsplash/photo-1467659226669-a1360d97be2d.jpg');
+  background-image: url('#{$imagesPath}/aviary/skyscape_slide_bcg.png');
   background-size: cover;
   background-position: center center;
-  color: #fff;
+  color: #FDFFFC;
   position: relative;
 
   &:after {
@@ -315,7 +315,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(64, 76, 93, 0.80);
   }
 
   .dark-banner-wrapper {
