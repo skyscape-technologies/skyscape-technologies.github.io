@@ -40,6 +40,8 @@
     max-width: 65%;
     height: auto;
 
+    @include animationDelay(.1s);
+
     @media(max-width: 991px) {
       max-width: 45%;
       height: auto;
