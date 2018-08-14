@@ -32,6 +32,38 @@
     background: linear-gradient(-45deg, rgba(63, 89, 118, 0.3) 0, rgba(14, 20, 34, 0.5) 80%);
   }
 
+  img {
+    padding-top: 0px;
+    position: relative;
+    top: -250px;
+    left: 90px; 
+    max-width: 65%;
+    height: auto;
+
+    @media(max-width: 991px) {
+      max-width: 45%;
+      height: auto;
+      top: -100px;
+      left: 40px;
+    }
+
+    @media(max-width: 767px) {
+      display: none;
+    }
+  }
+
+  list {
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat';
+    font-weight: 350;
+    line-height: 25px;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.11);
+
+    @include animationDelay(.2s);
+  }
+
   h2 {
     color: #fff;
     font-size: 48px;
@@ -42,7 +74,7 @@
     width: 800px;
     text-shadow: 0 2px 1px rgba(0, 0, 0, 0.11);
 
-    @include animationDelay(.1s);
+    @include animationDelay(.2s);
 
     @media(max-width: 991px) {
       font-size: 43px;
@@ -86,8 +118,9 @@
     width: 480px;
     font-size: 16px;
     line-height: 25px;
+    font-family: 'Montserrat';
 
-    @include animationDelay(.4s);
+    @include animationDelay(.2s);
 
     @media(max-width: 991px) {
       width: auto;
@@ -116,6 +149,35 @@
       &:active {
         border-color: #3b6b23;
       }
+    }
+  }
+
+  a.btn-cta-consulting {
+    display: inline-block;
+    padding: 11px 10px;
+    border: 1px solid #2EC4B6;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    background: transparent;
+    color: #2EC4B6;
+    text-decoration: none;
+    margin-top: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 200px;
+    font-family: 'Montserrat';
+
+    @include animationDelay(.3s);
+    @include transition(all .2s);
+
+    @media(max-width: 767px) {
+      margin-top: 20px;
+    }
+
+    &:hover {
+      color: #011627;
+      background: #2EC4B6;
     }
   }
 }
