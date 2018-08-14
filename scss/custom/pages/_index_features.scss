@@ -111,8 +111,6 @@
       background: transparent;
     }
   }
-
-
   }
 }
 
@@ -281,6 +279,32 @@
     color: #011627;
     line-height: 27px;
     margin-top: 30px;
+  }
+
+  a.btn-cta-consulting {
+    display: inline-block;
+    padding: 11px 10px;
+    border: 1px solid #2EC4B6;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    background: transparent;
+    color: #2EC4B6;
+    text-decoration: none;
+    margin-top: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 200px;
+    font-family: 'Montserrat';
+
+    @media(max-width: 767px) {
+      margin-top: 20px;
+    }
+
+    &:hover {
+      color: #fff;
+      background: #2EC4B6;
+    }
   }
 }
 
