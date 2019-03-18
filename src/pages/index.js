@@ -28,7 +28,7 @@ const IndexPage = () => (
           flexGrow: 1,
         }}
       >
-        <h1>Find out more</h1>
+        <h1>We're upgrading. Find out more</h1>
         <IconContext.Provider value={{ color: "white", size: `3em` }}>
           <a href="https://twitter.com/skyscapetech" className="btn-cta-orange" rel="noopener noreferrer" target="_blank">
             <FaTwitter />
